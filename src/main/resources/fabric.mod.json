@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "illusion_void",
+  "version": "1.0.0",
+  "name": "Illusion Void Block",
+  "description": "Blocks that look like void but turn black when you approach",
+  "authors": ["never"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/illusion_void/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["net.example.illusionvoid.IllusionVoidMod"],
+    "client": ["net.example.illusionvoid.client.IllusionVoidClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
